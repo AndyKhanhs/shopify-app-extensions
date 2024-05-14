@@ -57,7 +57,7 @@ function App() {
           {bundledProducts?.map((product, index) => {
             return (
               <InlineStack key={index} gap={"base"} blockAlignment="center">
-                <Box inlineSize={80} blockSize={80}>
+                <Box inlineSize={100} >
                   <Image
                     src={product.featuredImage.url}
                     alt={product.featuredImage.altText}
